@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td> Nhập vào số a</td>
+        <td> Nhập vào số b</td>
+    </tr>
+    <tr>
+        <td><input type="number" id="ip1"></td>
+        <td><input type="number" id="ip2"></td>
+        <td>
+            <button onclick="check()"> Check</button>
+        </td>
+    </tr>
+
+</table>
+
+
+<script>
+    function check() {
+
+
+        let so1 = document.getElementById("ip1").value;
+        let so2 = document.getElementById("ip2").value;
+        if (so1 % so2 == 0) {
+            alert("a chia het cho b");
+        } else {
+            alert("a khong chia het cho b");
+        }
+    }
+</script>
+</body>
+</html>

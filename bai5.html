@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Diem bai kiem tra la :")
+    let b = +prompt("diem bai thi giua ki la:")
+    let c = +prompt("diem bai thi cuoi ki la")
+    let diem = (a + (b * 2) + (c * 3)) / 6
+    if (diem > 0 && diem < 3.5) {
+        alert("hoc sinh yeu")
+    } else if (diem >= 3.5 && diem < 5) {
+        alert("hoc sinh trung binh")
+    } else if (diem >= 8) {
+        alert("hoc sinh gioi")
+    } else {
+        alert("hoc sinh kha")
+    }
+</script>
+
+</body>
+</html>
